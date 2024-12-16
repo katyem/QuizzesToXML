@@ -14,11 +14,11 @@ for(p in packages){
 
 # Directory paths
 
-main_dir <-   'C:/Users/tilma/Documents/Class/HNRS112/QuizzesCopy'  ## the directory on YOUR system 
+main_dir <-   'C:/Users/Your_folders'  ## the directory on YOUR system 
 text_dir <- file.path(main_dir, 'text')
 temp_dir <- file.path(main_dir, "temp")  # Temporary folder for output
 output_dir <- file.path(main_dir, "output")  # Final zip file location
-
+output_name <- "Myers Chapter"  # Name for output files   Results in "Myers Chapter 01.xml"
 # Ensure directories exist
 dir.create(temp_dir, showWarnings = FALSE)
 dir.create(output_dir, showWarnings = FALSE)
@@ -91,7 +91,7 @@ for (z in 1:length(files)) {
         
         random_indent = generate_random_string(33) # Generate a random string of the same length as the original ident  
         # Replace placeholders with dynamic values
-        xml_header <- sprintf(xml_header_template, random_indent, paste("Myers Chapter", chapter_number))
+        xml_header <- sprintf(xml_header_template, random_indent, paste(output_name, chapter_number))
         
         
         lines <- readLines(file_name)

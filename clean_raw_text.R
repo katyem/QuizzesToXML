@@ -58,9 +58,9 @@ parse_questions <- function(file_path, output_file) {
 }
 
 # Define the directories
-input_dir <- "C:/Users/tilma/Documents/Class/New Org Leadership/Yukl book/Questions/text"
-output_dir <- "C:/Users/tilma/Documents/Class/New Org Leadership/Yukl book/Questions/output"
-setwd("C:/Users/tilma/Documents/Class/New Org Leadership/Yukl book/Questions")  
+input_dir <- "C:/Users/Your_folder/Questions/text"
+output_dir <- "C:/Users/Your_folder/Questions/output"
+setwd("C:/Users/Your_foler/Questions")  
 # Create output directory if it doesn't exist
 if (!dir_exists(output_dir)) {
   dir_create(output_dir)

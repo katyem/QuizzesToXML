@@ -15,7 +15,7 @@
   <resources>
     <resource identifier="res000001" type="imsqti_xmlv1p2" href="questions.xml">
       <file href="questions.xml"/>
-      <dependency identifierref="9dgb6t9jstda87lna8nmni2qpuzilyujp"/>
+      <dependency identifierref="5vkhtoifg6v7ecs6bsx2gzjhcmhq2jss6"/>
     </resource>
   </resources>
 </manifest>
