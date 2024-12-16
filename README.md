@@ -6,7 +6,7 @@ editor_options:
 
 # QuizzesToXML
 
-## Convert quiz files from Aiken format to XML for Canvas LMS
+## Convert multiple-choice quiz files from Aiken format to XML for Canvas LMS
 
 Summary of the R code used to transform quizzes from Aiken format text
 files into xml files for La Tech's Canvas Learning Mgt System.
@@ -20,7 +20,7 @@ files into xml files for La Tech's Canvas Learning Mgt System.
 -   Load xml files one at a time into canvas using Import (either into a
     quiz or Item Bank).
 
-### Note: 
+### Note:
 
 The clean_raw_text.R file requires a specific file structure that was
 provided from a particular publisher. To use it may require extensive
@@ -29,12 +29,12 @@ question in the Aiken format:
 
 Which of the following is an example of a choice?
 
-A) bureaucratic procedures
+A)  bureaucratic procedures
 
-B) priorities attached to different objectives
+B)  priorities attached to different objectives
 
-C) availability of resources
+C)  availability of resources
 
-D) labor laws
+D)  labor laws
 
 Answer: B
