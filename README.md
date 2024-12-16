@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # QuizzesToXML
 
 ## Convert multiple-choice quiz files from Aiken format to XML for Canvas LMS
